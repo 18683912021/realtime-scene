@@ -1,0 +1,26 @@
+# frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# backend
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# local config and logs
+.env
+.env.*
+!.env.example
+*.local
+*.log
+*.pem
+*.key
+*.tsbuildinfo
+
+# OS
+.DS_Store
+
+# generated runtime TTS cache
+backend/generated_tts/

@@ -1,0 +1,77 @@
+{
+  "voice": [
+    {
+      "key": "greeting",
+      "text": "你来了。雨刚停，先坐吧。",
+      "url": "/assets/audio/greeting.wav",
+      "durationMs": 2792,
+      "voice": "Tingting"
+    },
+    {
+      "key": "waiting",
+      "text": "我在等一个人。也许他会来，也许不会。",
+      "url": "/assets/audio/waiting.wav",
+      "durationMs": 3962,
+      "voice": "Tingting"
+    },
+    {
+      "key": "camera",
+      "text": "相机陪我走了很多地方。镜头有点雾，我习惯自己擦。",
+      "url": "/assets/audio/camera.wav",
+      "durationMs": 5575,
+      "voice": "Tingting"
+    },
+    {
+      "key": "photo",
+      "text": "你看这张。雨后的城市，比平时亮。",
+      "url": "/assets/audio/photo.wav",
+      "durationMs": 3709,
+      "voice": "Tingting"
+    },
+    {
+      "key": "lightning",
+      "text": "刚才那道闪电……你看到了吗？",
+      "url": "/assets/audio/lightning.wav",
+      "durationMs": 2831,
+      "voice": "Tingting"
+    },
+    {
+      "key": "stars",
+      "text": "这个发夹？很久以前买的。星星在雨里也会亮。",
+      "url": "/assets/audio/stars.wav",
+      "durationMs": 4793,
+      "voice": "Tingting"
+    },
+    {
+      "key": "ending",
+      "text": "天快晴了。我该走了。谢谢你陪我坐一会儿。",
+      "url": "/assets/audio/ending.wav",
+      "durationMs": 4264,
+      "voice": "Tingting"
+    },
+    {
+      "key": "fallback",
+      "text": "嗯……你继续说，我在听。",
+      "url": "/assets/audio/fallback.wav",
+      "durationMs": 2652,
+      "voice": "Tingting"
+    }
+  ],
+  "ambience": [
+    {
+      "key": "thunder",
+      "url": "/assets/ambience/thunder.wav",
+      "durationMs": 3200
+    }
+  ],
+  "media": [
+    {
+      "key": "photo_star",
+      "url": "/assets/media/photo_star.png",
+      "width": 900,
+      "height": 1200
+    }
+  ],
+  "generator": "scripts/generate_assets.py",
+  "notes": "Original procedural prototype assets; macOS Tingting voice; no external API."
+}
